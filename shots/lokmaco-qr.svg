@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="500" fill="#FAF3E7"/>
+  <!-- top bar -->
+  <rect x="0" y="0" width="800" height="76" fill="#FAF3E7"/>
+  <text x="400" y="34" text-anchor="middle" font-family="serif" font-size="10" letter-spacing="4" fill="#8A5A3B">МЕНЮ</text>
+  <text x="400" y="60" text-anchor="middle" font-family="Playfair Display, serif" font-size="26" fill="#3B2416" font-style="italic">The Lokmaco</text>
+  <!-- lang -->
+  <g transform="translate(360 86)">
+    <rect x="0" y="0" width="30" height="22" rx="11" fill="#3B2416"/>
+    <text x="15" y="15" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#FAF3E7">RU</text>
+    <text x="48" y="15" font-family="sans-serif" font-size="10" fill="#8A5A3B">UZ</text>
+    <text x="72" y="15" font-family="sans-serif" font-size="10" fill="#8A5A3B">EN</text>
+  </g>
+  <!-- cat chips -->
+  <g transform="translate(60 130)" font-family="sans-serif" font-size="11" fill="#3B2416">
+    <rect x="0" y="0" width="46" height="26" rx="13" fill="#3B2416"/>
+    <text x="23" y="17" text-anchor="middle" fill="#FAF3E7">Всё</text>
+    <rect x="56" y="0" width="60" height="26" rx="13" fill="none" stroke="#E0D5BA"/>
+    <text x="86" y="17" text-anchor="middle">Завтраки</text>
+    <rect x="126" y="0" width="56" height="26" rx="13" fill="none" stroke="#E0D5BA"/>
+    <text x="154" y="17" text-anchor="middle">Горячее</text>
+    <rect x="192" y="0" width="46" height="26" rx="13" fill="none" stroke="#E0D5BA"/>
+    <text x="215" y="17" text-anchor="middle">Пицца</text>
+    <rect x="248" y="0" width="48" height="26" rx="13" fill="none" stroke="#E0D5BA"/>
+    <text x="272" y="17" text-anchor="middle">Паста</text>
+    <rect x="306" y="0" width="56" height="26" rx="13" fill="none" stroke="#E0D5BA"/>
+    <text x="334" y="17" text-anchor="middle">Салаты</text>
+    <rect x="372" y="0" width="54" height="26" rx="13" fill="none" stroke="#E0D5BA"/>
+    <text x="399" y="17" text-anchor="middle">Супы</text>
+  </g>
+  <!-- hero section header -->
+  <rect x="60" y="178" width="680" height="90" rx="10" fill="#3B2416"/>
+  <text x="76" y="206" font-family="sans-serif" font-size="10" letter-spacing="2" fill="#E0A83E">ВЫБОР LOKMACO</text>
+  <text x="724" y="230" text-anchor="end" font-family="Playfair Display, serif" font-style="italic" font-size="22" fill="#FAF3E7">С чего начать</text>
+  <g font-family="sans-serif" font-size="11" fill="#FAF3E7">
+    <text x="76" y="248">01 · Локма с фисташкой</text>
+    <text x="236" y="248">02 · Фондю шоколад</text>
+    <text x="396" y="248">03 · Шакшука</text>
+    <text x="556" y="248">04 · Паста песто</text>
+  </g>
+  <!-- dish cards row -->
+  <g transform="translate(60 294)">
+    <!-- card 1 -->
+    <rect x="0" y="0" width="155" height="186" rx="10" fill="#F0E6D2"/>
+    <rect x="0" y="0" width="155" height="110" rx="10 10 0 0" fill="#7FA653"/>
+    <circle cx="78" cy="55" r="30" fill="#E0A83E" opacity="0.9"/>
+    <circle cx="78" cy="55" r="20" fill="#FAF3E7" opacity="0.6"/>
+    <text x="12" y="134" font-family="sans-serif" font-size="12" fill="#3B2416" font-weight="600">Локма с фисташкой</text>
+    <text x="12" y="150" font-family="sans-serif" font-size="9" fill="#8A5A3B">турецкий десерт</text>
+    <text x="12" y="172" font-family="serif" font-size="14" fill="#3B2416">45 000 сум</text>
+
+    <!-- card 2 -->
+    <rect x="166" y="0" width="155" height="186" rx="10" fill="#F0E6D2"/>
+    <rect x="166" y="0" width="155" height="110" rx="10 10 0 0" fill="#8A5A3B"/>
+    <circle cx="243" cy="55" r="28" fill="#2E1A0F"/>
+    <path d="M225 50 Q243 30 261 50 Q261 70 243 75 Q225 70 225 50" fill="#E0A83E" opacity="0.7"/>
+    <text x="178" y="134" font-family="sans-serif" font-size="12" fill="#3B2416" font-weight="600">Фондю шоколад</text>
+    <text x="178" y="150" font-family="sans-serif" font-size="9" fill="#8A5A3B">бельгийский</text>
+    <text x="178" y="172" font-family="serif" font-size="14" fill="#3B2416">68 000 сум</text>
+
+    <!-- card 3 -->
+    <rect x="332" y="0" width="155" height="186" rx="10" fill="#F0E6D2"/>
+    <rect x="332" y="0" width="155" height="110" rx="10 10 0 0" fill="#C44A2A"/>
+    <circle cx="410" cy="55" r="30" fill="#E0A83E"/>
+    <circle cx="410" cy="55" r="12" fill="#FAF3E7"/>
+    <circle cx="410" cy="55" r="7" fill="#E0A83E"/>
+    <text x="344" y="134" font-family="sans-serif" font-size="12" fill="#3B2416" font-weight="600">Шакшука</text>
+    <text x="344" y="150" font-family="sans-serif" font-size="9" fill="#8A5A3B">яйца, томаты</text>
+    <text x="344" y="172" font-family="serif" font-size="14" fill="#3B2416">55 000 сум</text>
+
+    <!-- card 4 -->
+    <rect x="498" y="0" width="155" height="186" rx="10" fill="#F0E6D2"/>
+    <rect x="498" y="0" width="155" height="110" rx="10 10 0 0" fill="#7FA653"/>
+    <circle cx="576" cy="55" r="30" fill="#FAF3E7"/>
+    <path d="M560 55 Q568 50 576 55 T592 55" stroke="#4A6B35" stroke-width="2" fill="none"/>
+    <text x="510" y="134" font-family="sans-serif" font-size="12" fill="#3B2416" font-weight="600">Паста песто</text>
+    <text x="510" y="150" font-family="sans-serif" font-size="9" fill="#8A5A3B">феттуччини</text>
+    <text x="510" y="172" font-family="serif" font-size="14" fill="#3B2416">75 000 сум</text>
+  </g>
+</svg>

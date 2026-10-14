@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="ft-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0f"/>
+      <stop offset="1" stop-color="#15131f"/>
+    </linearGradient>
+    <linearGradient id="ft-grad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#ft-bg)"/>
+  <!-- top -->
+  <text x="40" y="44" font-family="sans-serif" font-size="18" fill="#f0f0f5" font-weight="700">FinTrack</text>
+  <text x="40" y="64" font-family="ui-monospace, monospace" font-size="11" fill="#7c7a8c">октябрь · баланс месяца</text>
+  <circle cx="750" cy="40" r="14" fill="#1f1b2e" stroke="#7c3aed" stroke-width="1"/>
+  <!-- live burn -->
+  <rect x="40" y="92" width="340" height="130" rx="10" fill="#15131f" stroke="#2a2439"/>
+  <text x="56" y="118" font-family="ui-monospace, monospace" font-size="10" fill="#7c7a8c" letter-spacing="1">LIVE BURN · ЗА ЧАС</text>
+  <text x="56" y="166" font-family="serif" font-size="34" fill="#f0f0f5">14 820 сум</text>
+  <text x="56" y="192" font-family="ui-monospace, monospace" font-size="11" fill="#4ade80">↓ 12% к среднему</text>
+  <!-- total -->
+  <rect x="396" y="92" width="364" height="130" rx="10" fill="#15131f" stroke="#2a2439"/>
+  <text x="412" y="118" font-family="ui-monospace, monospace" font-size="10" fill="#7c7a8c" letter-spacing="1">ПОТРАЧЕНО · ОКТЯБРЬ</text>
+  <text x="412" y="166" font-family="serif" font-size="34" fill="#f0f0f5">3 420 000</text>
+  <text x="412" y="192" font-family="ui-monospace, monospace" font-size="11" fill="#f59e0b">87% от бюджета 3 900 000</text>
+  <!-- chart -->
+  <rect x="40" y="240" width="720" height="200" rx="10" fill="#15131f" stroke="#2a2439"/>
+  <text x="56" y="266" font-family="ui-monospace, monospace" font-size="10" fill="#7c7a8c" letter-spacing="1">ПО ДНЯМ · ОКТЯБРЬ</text>
+  <path d="M56 420 L84 412 L112 400 L140 380 L168 388 L196 370 L224 362 L252 350 L280 342 L308 330 L336 324 L364 318 L392 306 L420 300 L448 292 L476 288 L504 280 L532 272 L560 264 L588 258 L616 252 L644 244 L672 240 L700 236 L728 232 L728 420 Z" fill="url(#ft-grad)"/>
+  <path d="M56 420 L84 412 L112 400 L140 380 L168 388 L196 370 L224 362 L252 350 L280 342 L308 330 L336 324 L364 318 L392 306 L420 300 L448 292 L476 288 L504 280 L532 272 L560 264 L588 258 L616 252 L644 244 L672 240 L700 236 L728 232" stroke="#a78bfa" stroke-width="2" fill="none"/>
+  <!-- quick input -->
+  <rect x="40" y="460" width="720" height="30" rx="8" fill="#1f1b2e" stroke="#2a2439"/>
+  <text x="54" y="479" font-family="ui-monospace, monospace" font-size="12" fill="#7c7a8c">+ быстрый ввод: </text>
+  <text x="170" y="479" font-family="ui-monospace, monospace" font-size="12" fill="#f0f0f5">25000 еда</text>
+</svg>

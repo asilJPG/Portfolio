@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <rect width="800" height="500" fill="#f6f7f9"/>
+  <!-- top bar -->
+  <rect x="0" y="0" width="800" height="56" fill="#ffffff" stroke="#e4e6ec"/>
+  <text x="26" y="36" font-family="sans-serif" font-size="16" fill="#1a1a2e" font-weight="700">TaskBoard</text>
+  <g font-family="sans-serif" font-size="12" fill="#6b7080">
+    <text x="140" y="36">Мои задачи</text>
+    <text x="222" y="36" fill="#1a1a2e" font-weight="600">Все</text>
+    <text x="258" y="36">Рейтинг</text>
+    <text x="312" y="36">Команда</text>
+  </g>
+  <!-- avatar -->
+  <circle cx="760" cy="28" r="14" fill="#5b8def"/>
+  <text x="760" y="33" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff" font-weight="700">A</text>
+
+  <!-- columns -->
+  <g font-family="sans-serif" font-size="11" fill="#6b7080">
+    <text x="40" y="86">НОВЫЕ · 3</text>
+    <text x="238" y="86">В РАБОТЕ · 5</text>
+    <text x="436" y="86">НА ПРОВЕРКЕ · 2</text>
+    <text x="634" y="86">ЗАВЕРШЕНО · 12</text>
+  </g>
+
+  <!-- card template -->
+  <g>
+    <!-- new -->
+    <rect x="36" y="98" width="180" height="92" rx="8" fill="#fff" stroke="#e4e6ec"/>
+    <rect x="36" y="98" width="4" height="92" rx="2" fill="#5b8def"/>
+    <text x="48" y="114" font-family="sans-serif" font-size="9" fill="#6b7080">#142 · высокий</text>
+    <text x="48" y="134" font-family="sans-serif" font-size="12" fill="#1a1a2e" font-weight="600">Сверка меню с кассой</text>
+    <text x="48" y="164" font-family="sans-serif" font-size="10" fill="#6b7080">⏳ до 18 окт</text>
+    <circle cx="196" cy="176" r="8" fill="#f59e0b"/>
+    <text x="196" y="180" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#fff">М</text>
+
+    <rect x="36" y="200" width="180" height="92" rx="8" fill="#fff" stroke="#e4e6ec"/>
+    <rect x="36" y="200" width="4" height="92" rx="2" fill="#8b9ab8"/>
+    <text x="48" y="216" font-family="sans-serif" font-size="9" fill="#6b7080">#141 · средний</text>
+    <text x="48" y="236" font-family="sans-serif" font-size="12" fill="#1a1a2e" font-weight="600">Обновить фото пиццы</text>
+    <text x="48" y="266" font-family="sans-serif" font-size="10" fill="#6b7080">без срока</text>
+
+    <!-- in progress -->
+    <rect x="234" y="98" width="180" height="130" rx="8" fill="#fff" stroke="#e4e6ec"/>
+    <rect x="234" y="98" width="4" height="130" rx="2" fill="#4ade80"/>
+    <text x="246" y="114" font-family="sans-serif" font-size="9" fill="#6b7080">#140 · высокий · 50%</text>
+    <text x="246" y="134" font-family="sans-serif" font-size="12" fill="#1a1a2e" font-weight="600">Инвентаризация бара</text>
+    <rect x="246" y="148" width="156" height="4" rx="2" fill="#e4e6ec"/>
+    <rect x="246" y="148" width="78" height="4" rx="2" fill="#4ade80"/>
+    <text x="246" y="176" font-family="sans-serif" font-size="10" fill="#6b7080">👥 Нуриддин 60% · Достон 40%</text>
+    <text x="246" y="196" font-family="sans-serif" font-size="10" fill="#f59e0b">⚠ до завтра</text>
+
+    <!-- review -->
+    <rect x="432" y="98" width="180" height="110" rx="8" fill="#fff" stroke="#e4e6ec"/>
+    <rect x="432" y="98" width="4" height="110" rx="2" fill="#a78bfa"/>
+    <text x="444" y="114" font-family="sans-serif" font-size="9" fill="#6b7080">#139 · сложность 7</text>
+    <text x="444" y="134" font-family="sans-serif" font-size="12" fill="#1a1a2e" font-weight="600">Обновить тех. карты</text>
+    <text x="444" y="156" font-family="sans-serif" font-size="10" fill="#6b7080">Сдал: Миразиз</text>
+    <text x="444" y="176" font-family="sans-serif" font-size="10" fill="#a78bfa">⚡ ждёт приёмки</text>
+
+    <!-- done -->
+    <rect x="630" y="98" width="140" height="90" rx="8" fill="#fff" stroke="#e4e6ec" opacity="0.7"/>
+    <rect x="630" y="98" width="4" height="90" rx="2" fill="#9ca3af"/>
+    <text x="642" y="114" font-family="sans-serif" font-size="9" fill="#9ca3af">#138 · 12 баллов</text>
+    <text x="642" y="134" font-family="sans-serif" font-size="12" fill="#1a1a2e" font-weight="500">Приход поставщика</text>
+    <text x="642" y="158" font-family="sans-serif" font-size="10" fill="#4ade80">✓ 10/10 качество</text>
+
+    <rect x="630" y="200" width="140" height="72" rx="8" fill="#fff" stroke="#e4e6ec" opacity="0.7"/>
+    <rect x="630" y="200" width="4" height="72" rx="2" fill="#9ca3af"/>
+    <text x="642" y="216" font-family="sans-serif" font-size="9" fill="#9ca3af">#137 · 9 баллов</text>
+    <text x="642" y="236" font-family="sans-serif" font-size="12" fill="#1a1a2e" font-weight="500">Акт списания</text>
+  </g>
+
+  <!-- bottom: rating preview -->
+  <rect x="36" y="306" width="730" height="170" rx="10" fill="#fff" stroke="#e4e6ec"/>
+  <text x="52" y="332" font-family="sans-serif" font-size="11" fill="#6b7080">РЕЙТИНГ · ОКТЯБРЬ</text>
+  <g font-family="sans-serif" font-size="12" fill="#1a1a2e">
+    <text x="52" y="358">1 · Мирзакодиров</text>
+    <text x="720" y="358" text-anchor="end" font-family="serif" font-size="16" fill="#4ade80">84</text>
+    <text x="52" y="382">2 · Асиль</text>
+    <text x="720" y="382" text-anchor="end" font-family="serif" font-size="16">72</text>
+    <text x="52" y="406">3 · Бабаев Нуриддин</text>
+    <text x="720" y="406" text-anchor="end" font-family="serif" font-size="16">58</text>
+    <text x="52" y="430">4 · Бойматов</text>
+    <text x="720" y="430" text-anchor="end" font-family="serif" font-size="16">46</text>
+    <text x="52" y="454">5 · Бабаев Достон</text>
+    <text x="720" y="454" text-anchor="end" font-family="serif" font-size="16">42</text>
+  </g>
+</svg>

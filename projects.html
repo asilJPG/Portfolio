@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<script>document.documentElement.classList.add('js');</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Проекты · Асиль Аминжонов</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='24' font-size='24' font-family='serif' font-style='italic'%3Ea%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+<div class="nav-shell">
+  <nav class="nav">
+    <a class="brand" href="index.html">(asil<span>.</span>)</a>
+    <div class="links">
+      <a href="index.html">index</a>
+      <a href="projects.html" class="on">projects</a>
+      <a href="about.html">about</a>
+      <a href="resume.html">cv</a>
+      <a href="index.html#contact">contact</a>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/asilJPG" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+      <a href="https://t.me/farshbtw" target="_blank" rel="noopener" aria-label="Telegram">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M15.65 1.57 1.73 7.03c-.95.38-.94.91-.17 1.14l3.57 1.11 8.26-5.21c.39-.24.75-.11.46.15L7.1 10.26l-.26 3.86c.39 0 .56-.18.78-.39l1.87-1.82 3.88 2.86c.72.4 1.23.19 1.4-.66L16.36 2.3c.26-1.03-.42-1.5-1.09-1.21z"/></svg>
+      </a>
+      <a href="mailto:asilchik18@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="1" y="3" width="14" height="10" rx="2"/><path d="M1.5 4 8 9l6.5-5"/></svg>
+      </a>
+    </div>
+  </nav>
+</div>
+
+<!-- Mini-hero header -->
+<section class="hero" style="min-height:280px; padding: 60px 60px 40px; grid-template-columns: 1fr;">
+  <div>
+    <div class="label">15+ проектов · 2023 — 2026</div>
+    <h1 style="font-size: clamp(40px, 5.5vw, 64px);">
+      Мои <span class="name">проекты</span>,<br />
+      <span class="light">по порядку появления</span>
+    </h1>
+    <p class="lede">
+      Не всё вылизано, но всё честно — это то, что я реально писал. От production-платформы
+      для сети ресторанов до одностраничника, который живёт в архиве.
+    </p>
+  </div>
+</section>
+
+<!-- Featured projects -->
+<section class="section" style="padding-top: 0;">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="l">Ресторанный техстек</div>
+        <h2>Lokmaco <em>+ Luma Garden</em></h2>
+      </div>
+    </div>
+
+    <div class="projects">
+      <article class="project featured" id="lokmaco-v2">
+        <div class="shot">
+          <span class="badge live">В ПРОДЕ · ГЛАВНЫЙ ПРОЕКТ</span>
+          <img src="shots/lokmaco-v2.svg" alt="Lokmaco v2 dashboard"/>
+        </div>
+        <div class="body">
+          <h3>Lokmaco <em>v2</em> · единая ОС сети</h3>
+          <p style="font-size: 15.5px;">
+            Мультифилиальная платформа для The Lokmaco (Фергана + Pipls Самарканд). Внутри:
+            приход, перемещение, инвентаризация, приготовление, списание, акты услуг, закрытие
+            смены, сверка касса↔iiko, зарплаты, P&amp;L, налоговый отчёт под 1С, ABC-анализ блюд.
+            Инвентаризация ОС сканированием телефоном.
+          </p>
+          <p style="font-size: 14px; color: var(--muted);">
+            Один заслон — в middleware. Матрица доступа снята построчно с легаси и сверена
+            программно (9 ролей × 21 раздел). Собственный HTTP/1-клиент для обхода бага undici
+            на iikoWeb. Инвентаризация ОС работает в WebKit через <code>jsqr</code>
+            (BarcodeDetector есть только в Chromium).
+          </p>
+          <div class="tags">
+            <span class="tag">Next.js 14</span>
+            <span class="tag">TypeScript strict</span>
+            <span class="tag">Drizzle</span>
+            <span class="tag">Postgres</span>
+            <span class="tag">SimpleWebAuthn</span>
+            <span class="tag">iiko XML + Web</span>
+            <span class="tag">Claude API</span>
+            <span class="tag">Zod</span>
+          </div>
+        </div>
+      </article>
+
+      <a class="project" href="https://lumagarden.uz" target="_blank" rel="noopener" id="lumagarden">
+        <div class="shot">
+          <span class="badge live">LUMAGARDEN.UZ</span>
+          <img src="shots/lumagarden.jpg" alt="Luma Garden"/>
+        </div>
+        <div class="body">
+          <h3>Luma <em>Garden</em></h3>
+          <p>Второй ресторан, отдельный домен, но общая с Локмой барная карта: напитки читаются из Supabase Storage на каждый запрос. Правка цены на кассе — изменение сразу на обоих сайтах. Программа лояльности общая: один баланс, одна карта на два заведения.</p>
+          <div class="tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">Supabase Storage</span>
+            <span class="tag">iiko Card</span>
+            <span class="tag">Google Wallet</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="#" id="lokmaco-qr">
+        <div class="shot">
+          <span class="badge live">В ПРОДЕ</span>
+          <img src="shots/lokmaco-qr.svg" alt="Lokmaco QR"/>
+        </div>
+        <div class="body">
+          <h3>The Lokmaco · <em>QR-меню</em></h3>
+          <p>Меню на 3 языках (RU/UZ/EN). Welcome-лоадер ждёт реальный прогресс загрузки фото. Kling-видео на 8 hero-блюдах с плавным кросс-фейдом в статику. Автоцентр кадра по медиане «центра массы» для 49 фото. Админка пишет в Supabase Storage — правки на проде моментально.</p>
+          <div class="tags">
+            <span class="tag">Next.js 16</span>
+            <span class="tag">Supabase Storage</span>
+            <span class="tag">iiko Card</span>
+            <span class="tag">Google Wallet</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Products -->
+<section class="section" style="padding-top: 10px;">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="l">Продуктовые приложения</div>
+        <h2>Полный <em>стек</em></h2>
+      </div>
+    </div>
+
+    <div class="projects">
+      <a class="project" href="#" id="fintrack">
+        <div class="shot">
+          <span class="badge">ЛИЧНО</span>
+          <img src="shots/fintrack.svg" alt="FinTrack"/>
+        </div>
+        <div class="body">
+          <h3>Fin<em>Track</em></h3>
+          <p>Личные финансы с AI-разбором. Быстрый ввод «25000 еда», живой счётчик сжигания денег,
+          цели с ETA, распознавание чеков (Tesseract + Claude Vision), AI-инсайты, iPhone Shortcut API.
+          Тёмный fintech-дизайн, mobile-first.</p>
+          <div class="tags">
+            <span class="tag">Next.js 14</span>
+            <span class="tag">Supabase Auth</span>
+            <span class="tag">Recharts</span>
+            <span class="tag">Tesseract.js</span>
+            <span class="tag">Claude API</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="#" id="taskboard">
+        <div class="shot">
+          <span class="badge">ВНУТРИ КОМАНДЫ</span>
+          <img src="shots/taskboard.svg" alt="TaskBoard"/>
+        </div>
+        <div class="body">
+          <h3>Task<em>Board</em></h3>
+          <p>Трекер задач с прогрессом 0/25/50/75/100, приоритетами, дедлайнами, командными долями
+          («30/70»), оценкой сложности и качества при приёмке. Своя auth, изолированные <code>tb_*</code> таблицы в общей базе, анонимные отчёты в Telegram-супергруппу.</p>
+          <div class="tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">Supabase</span>
+            <span class="tag">CSS Variables</span>
+            <span class="tag">Telegram Bot API</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="#">
+        <div class="shot">
+          <span class="badge">СКЛАД</span>
+          <svg viewBox="0 0 400 250" style="background:linear-gradient(135deg,#eef2f7,#d9e1ec);">
+            <rect x="40" y="40" width="320" height="30" rx="4" fill="#fff" stroke="#cfd8e3"/>
+            <text x="54" y="60" font-family="sans-serif" font-size="12" fill="#1a2733" font-weight="600">Warehouse · Админка</text>
+            <rect x="40" y="80" width="320" height="30" rx="4" fill="#fff" stroke="#cfd8e3"/>
+            <text x="54" y="100" font-family="sans-serif" font-size="11" fill="#4b5a6c">Партия #1248 · 48 кг · поступил</text>
+            <rect x="40" y="118" width="320" height="30" rx="4" fill="#fff" stroke="#cfd8e3"/>
+            <text x="54" y="138" font-family="sans-serif" font-size="11" fill="#4b5a6c">Партия #1249 · 24 кг · отгружен</text>
+            <rect x="40" y="156" width="320" height="30" rx="4" fill="#fff" stroke="#cfd8e3"/>
+            <text x="54" y="176" font-family="sans-serif" font-size="11" fill="#4b5a6c">Партия #1250 · 72 кг · на складе</text>
+            <rect x="40" y="200" width="90" height="26" rx="13" fill="#1a2733"/>
+            <text x="85" y="217" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#fff">↓ Выгрузить XLSX</text>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>Logist <em>Warehouse</em></h3>
+          <p>Приёмка, инвентаризация и отгрузки с админкой. Экспорт документов в XLSX со стилями через xlsx-js-style — для отправки поставщикам.</p>
+          <div class="tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">Supabase</span>
+            <span class="tag">xlsx-js-style</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="#">
+        <div class="shot">
+          <span class="badge">R&D</span>
+          <svg viewBox="0 0 400 250" style="background:linear-gradient(135deg,#1a2233,#2a3344);">
+            <circle cx="80" cy="80" r="30" fill="#5b8def"/>
+            <text x="80" y="86" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#fff">℞</text>
+            <rect x="130" y="60" width="220" height="18" rx="4" fill="#2a3344"/>
+            <rect x="130" y="60" width="150" height="18" rx="4" fill="#5b8def"/>
+            <text x="130" y="100" font-family="sans-serif" font-size="12" fill="#9ba6b8">Поиск · заказ · график приёма</text>
+            <rect x="40" y="140" width="100" height="80" rx="8" fill="#2a3344"/>
+            <rect x="150" y="140" width="100" height="80" rx="8" fill="#2a3344"/>
+            <rect x="260" y="140" width="100" height="80" rx="8" fill="#2a3344"/>
+            <text x="90" y="165" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5b8def">Клиент</text>
+            <text x="200" y="165" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5b8def">Аптека</text>
+            <text x="310" y="165" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#5b8def">Курьер</text>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>Tez<em>Davo</em></h3>
+          <p>Прототип маркетплейса лекарств. Клиентский поиск, корзина, оформление, отслеживание заказа, кабинеты аптеки и курьера, админка. PWA с Firebase Cloud Messaging.</p>
+          <div class="tags">
+            <span class="tag">Next.js 14</span>
+            <span class="tag">Supabase</span>
+            <span class="tag">Tailwind</span>
+            <span class="tag">PWA</span>
+            <span class="tag">FCM</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Bots -->
+<section class="section" style="padding-top: 10px;">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="l">Боты · автоматизация</div>
+        <h2>Python и <em>Telegram</em></h2>
+      </div>
+    </div>
+
+    <div class="projects">
+      <a class="project" href="#">
+        <div class="shot">
+          <span class="badge">КУХНЯ</span>
+          <svg viewBox="0 0 400 250" style="background:linear-gradient(135deg,#ffb627,#ff8a00);">
+            <circle cx="200" cy="100" r="60" fill="#fff" opacity="0.95"/>
+            <text x="200" y="112" text-anchor="middle" font-family="sans-serif" font-size="36" fill="#ff8a00">🍊</text>
+            <rect x="80" y="190" width="240" height="30" rx="15" fill="#fff" opacity="0.9"/>
+            <text x="200" y="210" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#8a4a00" font-weight="600">фото → Gemini Vision → iiko</text>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>Waste <em>Bot</em></h3>
+          <p>Скидываешь фото продукта на весах — Gemini Vision распознаёт название и вес, бот пишет в Supabase. <code>/итого</code> — сводка для iiko, в 23:00 автоотчёт, <code>/отмена</code> — если бот ошибся.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">python-telegram-bot</span>
+            <span class="tag">Gemini Vision</span>
+            <span class="tag">Supabase</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="#">
+        <div class="shot">
+          <span class="badge">ПЕРСОНАЛ</span>
+          <svg viewBox="0 0 400 250" style="background:linear-gradient(135deg,#8e5bef,#5e3bc9);">
+            <rect x="40" y="40" width="320" height="170" rx="12" fill="#fff" opacity="0.95"/>
+            <text x="54" y="68" font-family="ui-monospace, monospace" font-size="10" fill="#5e3bc9" letter-spacing="2">ASSISTANT</text>
+            <text x="54" y="100" font-family="sans-serif" font-size="14" font-weight="700" fill="#2a1a4a">Сводка за день</text>
+            <text x="54" y="124" font-family="sans-serif" font-size="12" fill="#5a4a6a">выручка · 21 460 000 сум</text>
+            <text x="54" y="142" font-family="sans-serif" font-size="12" fill="#5a4a6a">средний чек · 116 630</text>
+            <text x="54" y="160" font-family="sans-serif" font-size="12" fill="#5a4a6a">топ блюдо · локма с фисташкой</text>
+            <text x="54" y="178" font-family="sans-serif" font-size="12" fill="#5a4a6a">гостей сегодня · 184</text>
+            <text x="54" y="196" font-family="ui-monospace, monospace" font-size="10" fill="#8e5bef">отправлено в 23:30</text>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>Assistant <em>Bot</em></h3>
+          <p>Ассистент кухни и менеджеров. Сводки по продажам из iiko, парсинг Instagram-статистики, импорт истории меню, отчёты по остаткам. Работает одновременно как userbot (Telethon) и как обычный бот. В Docker на Hugging Face Spaces.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Telethon</span>
+            <span class="tag">aiogram</span>
+            <span class="tag">iiko Reports</span>
+            <span class="tag">Docker</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="#">
+        <div class="shot">
+          <span class="badge">СКРАПЕР</span>
+          <svg viewBox="0 0 400 250" style="background:linear-gradient(135deg,#1a2233,#3a4458);">
+            <text x="200" y="60" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#5bef9b" letter-spacing="4">DIDOX · READ ONLY</text>
+            <rect x="80" y="90" width="240" height="20" rx="4" fill="#2a3344"/>
+            <rect x="80" y="90" width="80" height="20" rx="4" fill="#5bef9b"/>
+            <text x="90" y="104" font-family="ui-monospace, monospace" font-size="10" fill="#1a2233" font-weight="700">GET /</text>
+            <rect x="80" y="118" width="240" height="20" rx="4" fill="#2a3344"/>
+            <text x="90" y="132" font-family="ui-monospace, monospace" font-size="10" fill="#5bef9b">captured invoices.xlsx</text>
+            <rect x="80" y="146" width="240" height="20" rx="4" fill="#2a3344"/>
+            <text x="90" y="160" font-family="ui-monospace, monospace" font-size="10" fill="#5bef9b">НИКОГДА не подписывает</text>
+            <text x="200" y="200" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#5bef9b" font-weight="700">🔒</text>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>Didox <em>Scraper</em></h3>
+          <p>Playwright-скрипт для портала Didox. Только чтение — перехватывает JSON-ответы и сохраняет их. Никакого подписания документов ни при каких условиях (написано большими буквами в самом скрипте).</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Playwright</span>
+            <span class="tag">pandas</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="#">
+        <div class="shot">
+          <span class="badge">РЕФЕРАЛЬНЫЙ</span>
+          <svg viewBox="0 0 400 250" style="background:linear-gradient(135deg,#ef5b8e,#ef8e5b);">
+            <circle cx="100" cy="125" r="30" fill="#fff"/>
+            <text x="100" y="133" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#ef5b8e" font-weight="700">A</text>
+            <circle cx="200" cy="80" r="22" fill="#fff" opacity="0.85"/>
+            <text x="200" y="87" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ef5b8e" font-weight="700">B</text>
+            <circle cx="200" cy="170" r="22" fill="#fff" opacity="0.85"/>
+            <text x="200" y="177" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ef5b8e" font-weight="700">C</text>
+            <circle cx="300" cy="60" r="18" fill="#fff" opacity="0.75"/>
+            <circle cx="300" cy="190" r="18" fill="#fff" opacity="0.75"/>
+            <circle cx="320" cy="125" r="18" fill="#fff" opacity="0.75"/>
+            <line x1="128" y1="118" x2="180" y2="88" stroke="#fff" stroke-width="2"/>
+            <line x1="128" y1="135" x2="180" y2="165" stroke="#fff" stroke-width="2"/>
+            <line x1="220" y1="75" x2="285" y2="62" stroke="#fff" stroke-width="2"/>
+            <line x1="220" y1="170" x2="285" y2="188" stroke="#fff" stroke-width="2"/>
+            <line x1="222" y1="80" x2="305" y2="120" stroke="#fff" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="body">
+          <h3>BBB <em>Bot</em></h3>
+          <p>Две связанные системы (сам бот + рефералка): приглашения, админ-панель, экспорт отчётов, рассылки с задержкой, чтобы не поймать flood-limit Telegram.</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">aiogram</span>
+            <span class="tag">FSM</span>
+            <span class="tag">Postgres</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact band -->
+<section id="contact">
+  <div class="contact-band reveal">
+    <h2>Нужен такой же <em>стек в вашем</em> продукте?</h2>
+    <p>Пишите в телеграм или на почту — обсудим задачу. Отвечаю в этот же день.</p>
+    <div class="ctas">
+      <a href="mailto:asilchik18@gmail.com" class="btn btn-dark">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="14" height="10" rx="2"/><path d="M1.5 4 8 9l6.5-5"/></svg>
+        asilchik18@gmail.com
+      </a>
+      <a href="https://t.me/farshbtw" class="btn btn-ghost" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M15.65 1.57 1.73 7.03c-.95.38-.94.91-.17 1.14l3.57 1.11 8.26-5.21c.39-.24.75-.11.46.15L7.1 10.26l-.26 3.86c.39 0 .56-.18.78-.39l1.87-1.82 3.88 2.86c.72.4 1.23.19 1.4-.66L16.36 2.3c.26-1.03-.42-1.5-1.09-1.21z"/></svg>
+        @farshbtw
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap-foot">
+    <div>© 2026 · Асиль Аминжонов · Фергана</div>
+    <div><a href="https://github.com/asilJPG">github</a> · <a href="https://t.me/farshbtw">telegram</a> · <a href="mailto:asilchik18@gmail.com">email</a></div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    const els = document.querySelectorAll('.reveal, .project');
+    if (!('IntersectionObserver' in window)) { els.forEach(e => e.classList.add('in')); return; }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -5% 0px', threshold: 0.01 });
+    els.forEach((e, i) => {
+      if (e.classList.contains('project') && !e.classList.contains('featured')) {
+        e.style.setProperty('--d', (i * 50) + 'ms');
+      }
+      io.observe(e);
+    });
+    setTimeout(() => els.forEach(e => e.classList.add('in')), 600);
+  })();
+</script>
+
+</body>
+</html>

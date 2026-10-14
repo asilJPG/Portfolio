@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1419"/>
+      <stop offset="1" stop-color="#1a1f26"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  <!-- side nav -->
+  <rect x="0" y="0" width="190" height="500" fill="#161c23"/>
+  <rect x="18" y="26" width="100" height="12" rx="2" fill="#e9c46a"/>
+  <g font-family="ui-monospace, monospace" font-size="11" fill="#9ba6b2">
+    <text x="18" y="78">СМЕНА</text>
+    <text x="18" y="100" fill="#d8dee6">· Закрыть смену</text>
+    <text x="18" y="118" fill="#d8dee6">· Явки</text>
+    <text x="18" y="150">СКЛАД</text>
+    <text x="18" y="172" fill="#d8dee6">· Остатки</text>
+    <text x="18" y="190" fill="#d8dee6">· Приход</text>
+    <text x="18" y="208" fill="#d8dee6">· Перемещение</text>
+    <text x="18" y="226" fill="#d8dee6">· Инвентаризация</text>
+    <text x="18" y="244" fill="#d8dee6">· Приготовление</text>
+    <text x="18" y="262" fill="#d8dee6">· Списание</text>
+    <text x="18" y="294">АНАЛИТИКА</text>
+    <text x="18" y="316" fill="#d8dee6">· Обзор</text>
+    <text x="18" y="334" fill="#d8dee6">· ОПиУ</text>
+    <text x="18" y="352" fill="#d8dee6">· ABC-анализ</text>
+    <text x="18" y="384">ФИНАНСЫ</text>
+    <text x="18" y="406" fill="#d8dee6">· Сейф</text>
+    <text x="18" y="424" fill="#d8dee6">· Зарплаты</text>
+    <text x="18" y="442" fill="#d8dee6">· P&amp;L</text>
+  </g>
+  <!-- main content -->
+  <text x="220" y="48" font-family="Newsreader, serif" font-size="22" fill="#f0f3f7">Обзор · Фергана</text>
+  <text x="220" y="68" font-family="ui-monospace, monospace" font-size="11" fill="#9ba6b2">ЖИВЫЕ ДАННЫЕ · ОБНОВЛЕНИЕ 15с</text>
+  <!-- stat cards -->
+  <g>
+    <rect x="220" y="88" width="130" height="70" rx="6" fill="#1e2630"/>
+    <text x="232" y="110" font-family="ui-monospace, monospace" font-size="10" fill="#9ba6b2">ВЫРУЧКА ЗА ДЕНЬ</text>
+    <text x="232" y="138" font-family="Newsreader, serif" font-size="20" fill="#e9c46a">21 460 000</text>
+
+    <rect x="358" y="88" width="130" height="70" rx="6" fill="#1e2630"/>
+    <text x="370" y="110" font-family="ui-monospace, monospace" font-size="10" fill="#9ba6b2">ЧЕКОВ</text>
+    <text x="370" y="138" font-family="Newsreader, serif" font-size="20" fill="#f0f3f7">184</text>
+
+    <rect x="496" y="88" width="130" height="70" rx="6" fill="#1e2630"/>
+    <text x="508" y="110" font-family="ui-monospace, monospace" font-size="10" fill="#9ba6b2">СРЕДНИЙ ЧЕК</text>
+    <text x="508" y="138" font-family="Newsreader, serif" font-size="20" fill="#f0f3f7">116 630</text>
+
+    <rect x="634" y="88" width="146" height="70" rx="6" fill="#1e2630"/>
+    <text x="646" y="110" font-family="ui-monospace, monospace" font-size="10" fill="#9ba6b2">СВЕРКА КАССА↔IIKO</text>
+    <text x="646" y="138" font-family="Newsreader, serif" font-size="20" fill="#7fbf7f">+20 сум</text>
+  </g>
+  <!-- chart -->
+  <rect x="220" y="178" width="560" height="200" rx="6" fill="#1e2630"/>
+  <text x="236" y="200" font-family="ui-monospace, monospace" font-size="10" fill="#9ba6b2">ПРОДАЖИ · ПОСЛЕДНИЕ 14 ДНЕЙ</text>
+  <polyline points="236,340 290,330 344,310 398,320 452,290 506,296 560,270 614,278 668,254 722,260 756,240" stroke="#e9c46a" stroke-width="2" fill="none"/>
+  <polyline points="236,350 290,348 344,340 398,344 452,330 506,336 560,320 614,324 668,310 722,316 756,302" stroke="#4a647f" stroke-width="1.5" fill="none" stroke-dasharray="3 3"/>
+  <!-- footer rows -->
+  <rect x="220" y="398" width="560" height="80" rx="6" fill="#1e2630"/>
+  <g font-family="ui-monospace, monospace" font-size="10" fill="#d8dee6">
+    <text x="236" y="420" fill="#9ba6b2">ПОСЛЕДНИЕ ОПЕРАЦИИ</text>
+    <text x="236" y="440">14:32  приход · 2 400 000 · Миразиз</text>
+    <text x="236" y="456">14:08  перемещение · бар→кух · Нуриддин</text>
+    <text x="236" y="472">13:51  закрытие смены · 1 240 000 нал · Бойматов</text>
+  </g>
+</svg>

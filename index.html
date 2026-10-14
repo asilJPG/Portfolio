@@ -1,32 +1,455 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
+<!doctype html>
+<html lang="ru">
+<head>
+<script>document.documentElement.classList.add('js');</script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Асиль Аминжонов — Full-Stack Web Developer</title>
+<meta name="description" content="Full-stack веб-разработчик из Ферганы. Next.js, TypeScript, Postgres. Платформа для сети ресторанов, QR-меню, финтрек с AI." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='24' font-size='24' font-family='serif' font-style='italic'%3Ea%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
 
-    <title>Aminjonov Asil</title>
-  </head>
-  <body>
-    <div style="width: 100%; height: 150px"></div>
-    <div
-      class="flex items-center justify-center"
-      style="height: 100%; width: 100%"
-    >
-      <div class="mx-auto grid grid-cols-2 gap-x-[100px]">
-        <div class="flex flex-col items-start text-[64px] font-bold">
-          <a href="/home.html" class="hover:drop-shadow-2xl">HOME</a>
-          <a class="hover:drop-shadow-2xl">PROJECTS</a>
-          <a href="/about.html" class="hover:drop-shadow-2xl">ABOUT</a>
-          <a href="/contact.html" class="hover:drop-shadow-2xl">CONTACT</a>
+<!-- ============ NAV ============ -->
+<div class="nav-shell">
+  <nav class="nav">
+    <a class="brand" href="index.html">(asil<span>.</span>)</a>
+    <div class="links">
+      <a href="index.html" class="on">index</a>
+      <a href="projects.html">projects</a>
+      <a href="about.html">about</a>
+      <a href="resume.html">cv</a>
+      <a href="#contact">contact</a>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/asilJPG" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+      </a>
+      <a href="https://t.me/farshbtw" target="_blank" rel="noopener" aria-label="Telegram">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M15.65 1.57 1.73 7.03c-.95.38-.94.91-.17 1.14l3.57 1.11 8.26-5.21c.39-.24.75-.11.46.15L7.1 10.26l-.26 3.86c.39 0 .56-.18.78-.39l1.87-1.82 3.88 2.86c.72.4 1.23.19 1.4-.66L16.36 2.3c.26-1.03-.42-1.5-1.09-1.21z"/></svg>
+      </a>
+      <a href="mailto:asilchik18@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="1" y="3" width="14" height="10" rx="2"/><path d="M1.5 4 8 9l6.5-5"/></svg>
+      </a>
+    </div>
+  </nav>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="label"><span class="dot"></span> открыт для новых проектов · q4 2026</div>
+    <h1>
+      <span class="light">Я —</span><br />
+      <span class="name">Асиль Аминжонов</span><br />
+      <span>Full-Stack Web Developer</span>
+    </h1>
+    <p class="lede">
+      Веб-разработчик из Ферганы. Три года пишу продукты на Next.js, TypeScript и Postgres —
+      от схемы базы до последнего hover-состояния. Главный проект — операционная система
+      для сети кофеен The Lokmaco: 14 сотрудников, 2 филиала, 9 ролей.
+    </p>
+    <div class="ctas">
+      <a href="resume.html" class="btn btn-dark">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 2v10m0 0 4-4m-4 4L4 8M2 14h12"/></svg>
+        Скачать CV
+      </a>
+      <a href="#contact" class="btn btn-ghost">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h12v10H2z"/><path d="m2 3 6 5 6-5"/></svg>
+        Написать
+      </a>
+    </div>
+  </div>
+
+  <!-- Figure (not a memoji — stylized "dev at laptop" illustration) -->
+  <div class="figure">
+    <div class="orb"></div>
+    <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#F3D7B8"/>
+          <stop offset="1" stop-color="#D9B089"/>
+        </linearGradient>
+        <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#2C1810"/>
+          <stop offset="1" stop-color="#1A0F08"/>
+        </linearGradient>
+        <linearGradient id="lap" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#E8E4DD"/>
+          <stop offset="1" stop-color="#C9C5BE"/>
+        </linearGradient>
+        <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#1a1824"/>
+          <stop offset="1" stop-color="#2a2638"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Soft back glow -->
+      <circle cx="150" cy="130" r="110" fill="url(#orb-g)" opacity="0.4"/>
+
+      <!-- Shoulders / tshirt -->
+      <path d="M60 290 Q70 220 110 200 L190 200 Q230 220 240 290 Z" fill="#2C2838"/>
+      <path d="M110 200 Q120 215 150 215 Q180 215 190 200" fill="none" stroke="#1A1824" stroke-width="2"/>
+
+      <!-- Neck -->
+      <rect x="138" y="170" width="24" height="30" rx="4" fill="url(#skin)"/>
+
+      <!-- Head -->
+      <ellipse cx="150" cy="130" rx="56" ry="62" fill="url(#skin)"/>
+
+      <!-- Hair top -->
+      <path d="M94 118 Q102 68 150 65 Q198 68 206 118 Q195 100 180 95 Q165 90 150 92 Q135 90 120 95 Q105 100 94 118 Z" fill="url(#hair)"/>
+      <!-- Hair side (short fade) -->
+      <path d="M94 118 Q92 140 100 158 Q98 130 108 115 Z" fill="url(#hair)"/>
+      <path d="M206 118 Q208 140 200 158 Q202 130 192 115 Z" fill="url(#hair)"/>
+
+      <!-- Ears -->
+      <ellipse cx="94" cy="138" rx="7" ry="12" fill="url(#skin)"/>
+      <ellipse cx="206" cy="138" rx="7" ry="12" fill="url(#skin)"/>
+
+      <!-- Eyebrows -->
+      <path d="M118 128 Q128 124 138 128" stroke="#1A0F08" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M162 128 Q172 124 182 128" stroke="#1A0F08" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+      <!-- Eyes (closed-focused look) -->
+      <path d="M118 142 Q128 148 138 142" stroke="#1A0F08" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <path d="M162 142 Q172 148 182 142" stroke="#1A0F08" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+      <!-- Nose -->
+      <path d="M150 148 Q148 160 146 166 Q150 169 154 166 Q152 160 150 148" fill="none" stroke="#B88C64" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- Mouth (slight smile) -->
+      <path d="M138 180 Q150 185 162 180" stroke="#8A5A3B" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+      <!-- Laptop top edge -->
+      <rect x="40" y="260" width="220" height="12" rx="3" fill="url(#lap)"/>
+      <rect x="40" y="260" width="220" height="12" rx="3" fill="none" stroke="#A09C94" stroke-width="0.8"/>
+
+      <!-- Screen glow -->
+      <rect x="48" y="210" width="204" height="52" rx="2" fill="url(#screen)" opacity="0.0"/>
+
+      <!-- Code dots on screen glow (just hint) -->
+    </svg>
+  </div>
+
+  <!-- bottom strip (like browser status) -->
+  <div class="strip">
+    <div><span class="k">Сейчас: </span>Lokmaco v2 · банкеты, аналитика кликов, темы</div>
+    <div><span class="k">Фергана · UTC+5 · </span><span id="clock">—</span></div>
+  </div>
+</section>
+
+<!-- ============ TICKER ============ -->
+<div class="wrap">
+  <div class="ticker" aria-hidden="true">
+    <div class="track">
+      <span>Next.js&nbsp;16</span><i>·</i><span>React</span><i>·</i><span>TypeScript&nbsp;strict</span><i>·</i>
+      <span>Tailwind</span><i>·</i><span>Framer&nbsp;Motion</span><i>·</i><span>Recharts</span><i>·</i>
+      <span>Node</span><i>·</i><span>Route&nbsp;Handlers</span><i>·</i><span>Drizzle&nbsp;ORM</span><i>·</i>
+      <span>Postgres</span><i>·</i><span>Supabase</span><i>·</i><span>SimpleWebAuthn</span><i>·</i>
+      <span>Zod</span><i>·</i><span>JWT</span><i>·</i><span>Python</span><i>·</i><span>aiogram</span><i>·</i>
+      <span>Playwright</span><i>·</i><span>FastAPI</span><i>·</i><span>iiko&nbsp;XML</span><i>·</i>
+      <span>iikoWeb</span><i>·</i><span>iiko&nbsp;Card</span><i>·</i><span>Google&nbsp;Wallet</span><i>·</i>
+      <span>Anthropic&nbsp;Claude</span><i>·</i><span>Gemini</span><i>·</i><span>Tesseract.js</span><i>·</i>
+      <span>Telegram&nbsp;Bot&nbsp;API</span><i>·</i><span>Vercel</span><i>·</i><span>Railway</span><i>·</i>
+      <span>Docker</span><i>·</i><span>GitHub&nbsp;Actions</span><i>·</i>
+    </div>
+    <div class="track" aria-hidden="true">
+      <span>Next.js&nbsp;16</span><i>·</i><span>React</span><i>·</i><span>TypeScript&nbsp;strict</span><i>·</i>
+      <span>Tailwind</span><i>·</i><span>Framer&nbsp;Motion</span><i>·</i><span>Recharts</span><i>·</i>
+      <span>Node</span><i>·</i><span>Route&nbsp;Handlers</span><i>·</i><span>Drizzle&nbsp;ORM</span><i>·</i>
+      <span>Postgres</span><i>·</i><span>Supabase</span><i>·</i><span>SimpleWebAuthn</span><i>·</i>
+      <span>Zod</span><i>·</i><span>JWT</span><i>·</i><span>Python</span><i>·</i><span>aiogram</span><i>·</i>
+      <span>Playwright</span><i>·</i><span>FastAPI</span><i>·</i><span>iiko&nbsp;XML</span><i>·</i>
+      <span>iikoWeb</span><i>·</i><span>iiko&nbsp;Card</span><i>·</i><span>Google&nbsp;Wallet</span><i>·</i>
+      <span>Anthropic&nbsp;Claude</span><i>·</i><span>Gemini</span><i>·</i><span>Tesseract.js</span><i>·</i>
+      <span>Telegram&nbsp;Bot&nbsp;API</span><i>·</i><span>Vercel</span><i>·</i><span>Railway</span><i>·</i>
+      <span>Docker</span><i>·</i><span>GitHub&nbsp;Actions</span><i>·</i>
+    </div>
+  </div>
+</div>
+
+<!-- ============ NUMBERS ============ -->
+<div class="wrap">
+  <div class="numbers reveal">
+    <div class="n"><div class="v">3<small> года</small></div><div class="k">Коммерческого<br>опыта</div></div>
+    <div class="n"><div class="v">15<small>+</small></div><div class="k">Проектов<br>в репозитории</div></div>
+    <div class="n"><div class="v">14</div><div class="k">Сотрудников<br>внутри платформы</div></div>
+    <div class="n"><div class="v">2</div><div class="k">Ресторана<br>на моём стеке</div></div>
+  </div>
+</div>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="l">Избранное</div>
+        <h2>Мои <em>проекты</em></h2>
+      </div>
+      <div class="r">
+        <a href="projects.html" style="color:var(--ink)">смотреть все →</a>
+      </div>
+    </div>
+
+    <div class="projects">
+      <!-- featured -->
+      <a class="project featured reveal" href="projects.html#lokmaco-v2">
+        <div class="shot">
+          <span class="badge live">В ПРОДЕ</span>
+          <img src="shots/lokmaco-v2.svg" alt="Lokmaco v2 — dashboard" loading="lazy"/>
         </div>
-        <div class="flex flex-col text-[24px] font-bold my-auto">
-          <a href="mailto:asil.aminjonov.bp@gmail.com"
-            >asil.aminjonov.bp@gmail.com</a
-          >
-          <a href="tel:+998913270307">+998913270307</a>
+        <div class="body">
+          <h3>Lokmaco <em>v2</em></h3>
+          <p>Операционная система сети ресторанов. 14 сотрудников каждый день, 2 филиала, 9 ролей.
+          Приход, инвентаризация, зарплаты, сверка кассы с iiko, налоговый отчёт под 1С.</p>
+          <div class="tags">
+            <span class="tag">Next.js 14</span>
+            <span class="tag">Drizzle</span>
+            <span class="tag">Postgres</span>
+            <span class="tag">iiko XML + Web</span>
+            <span class="tag">SimpleWebAuthn</span>
+            <span class="tag">Claude API</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="https://lumagarden.uz" target="_blank" rel="noopener">
+        <div class="shot">
+          <span class="badge live">LUMAGARDEN.UZ</span>
+          <img src="shots/lumagarden.jpg" alt="Luma Garden guest site" loading="lazy"/>
+        </div>
+        <div class="body">
+          <h3>Luma <em>Garden</em></h3>
+          <p>Гостевой сайт ресторана. QR-меню, бонусная карта Google Wallet, общий бар с Lokmaco через Supabase.</p>
+          <div class="tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">Supabase</span>
+            <span class="tag">Google Wallet</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="projects.html#lokmaco-qr">
+        <div class="shot">
+          <span class="badge live">В ПРОДЕ</span>
+          <img src="shots/lokmaco-qr.svg" alt="Lokmaco QR menu" loading="lazy"/>
+        </div>
+        <div class="body">
+          <h3>The Lokmaco · <em>QR</em></h3>
+          <p>QR-меню на 3 языках. Welcome-лоадер на реальный прогресс, Kling-видео на hero-блюдах, кадрирование в админке.</p>
+          <div class="tags">
+            <span class="tag">Next.js 16</span>
+            <span class="tag">Supabase Storage</span>
+            <span class="tag">iiko Card</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="projects.html#taskboard">
+        <div class="shot">
+          <span class="badge">ВНУТРИ</span>
+          <img src="shots/taskboard.svg" alt="TaskBoard" loading="lazy"/>
+        </div>
+        <div class="body">
+          <h3>Task<em>Board</em></h3>
+          <p>Трекер задач с рейтингом сотрудников, командными долями, оценкой сложности и качества. Отчёты в Telegram.</p>
+          <div class="tags">
+            <span class="tag">Next.js</span>
+            <span class="tag">Supabase</span>
+            <span class="tag">Telegram Bot API</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="project" href="projects.html#fintrack">
+        <div class="shot">
+          <span class="badge">ЛИЧНО</span>
+          <img src="shots/fintrack.svg" alt="FinTrack" loading="lazy"/>
+        </div>
+        <div class="body">
+          <h3>Fin<em>Track</em></h3>
+          <p>Личные финансы. Live burn-счётчик, OCR чеков (Tesseract + Claude Vision), AI-разбор трат, iPhone Shortcut API.</p>
+          <div class="tags">
+            <span class="tag">Next.js 14</span>
+            <span class="tag">Supabase Auth</span>
+            <span class="tag">Claude Vision</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" style="padding-top: 20px;">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="l">Что я умею</div>
+        <h2>Мои <em>компетенции</em></h2>
+      </div>
+      <div class="r">обновлено<br>октябрь&nbsp;2026</div>
+    </div>
+
+    <div class="skills-card reveal">
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Frontend</h4>
+          <div class="bar-row" data-w="95"><span class="name">Next.js · React</span><span class="bar"><span class="fill"></span></span><span class="pct">95%</span></div>
+          <div class="bar-row" data-w="92"><span class="name">TypeScript</span><span class="bar"><span class="fill"></span></span><span class="pct">92%</span></div>
+          <div class="bar-row" data-w="90"><span class="name">CSS / Tailwind</span><span class="bar"><span class="fill"></span></span><span class="pct">90%</span></div>
+          <div class="bar-row" data-w="78"><span class="name">Recharts / viz</span><span class="bar"><span class="fill"></span></span><span class="pct">78%</span></div>
+          <div class="bar-row" data-w="72"><span class="name">Framer Motion</span><span class="bar"><span class="fill"></span></span><span class="pct">72%</span></div>
+        </div>
+        <div class="skill-group">
+          <h4>Backend &amp; данные</h4>
+          <div class="bar-row" data-w="90"><span class="name">Node · Route Handlers</span><span class="bar"><span class="fill"></span></span><span class="pct">90%</span></div>
+          <div class="bar-row" data-w="88"><span class="name">Postgres · Drizzle</span><span class="bar"><span class="fill"></span></span><span class="pct">88%</span></div>
+          <div class="bar-row" data-w="85"><span class="name">Supabase</span><span class="bar"><span class="fill"></span></span><span class="pct">85%</span></div>
+          <div class="bar-row" data-w="80"><span class="name">SimpleWebAuthn · JWT</span><span class="bar"><span class="fill"></span></span><span class="pct">80%</span></div>
+          <div class="bar-row" data-w="75"><span class="name">Python · FastAPI</span><span class="bar"><span class="fill"></span></span><span class="pct">75%</span></div>
+        </div>
+        <div class="skill-group">
+          <h4>Интеграции</h4>
+          <div class="bar-row" data-w="92"><span class="name">iiko XML / Web</span><span class="bar"><span class="fill"></span></span><span class="pct">92%</span></div>
+          <div class="bar-row" data-w="85"><span class="name">Google Wallet</span><span class="bar"><span class="fill"></span></span><span class="pct">85%</span></div>
+          <div class="bar-row" data-w="88"><span class="name">Anthropic · Gemini</span><span class="bar"><span class="fill"></span></span><span class="pct">88%</span></div>
+          <div class="bar-row" data-w="80"><span class="name">Telegram Bot API</span><span class="bar"><span class="fill"></span></span><span class="pct">80%</span></div>
+          <div class="bar-row" data-w="72"><span class="name">Tesseract / OCR</span><span class="bar"><span class="fill"></span></span><span class="pct">72%</span></div>
+        </div>
+        <div class="skill-group">
+          <h4>Инфра · инструменты</h4>
+          <div class="bar-row" data-w="88"><span class="name">Vercel · Railway</span><span class="bar"><span class="fill"></span></span><span class="pct">88%</span></div>
+          <div class="bar-row" data-w="80"><span class="name">Docker</span><span class="bar"><span class="fill"></span></span><span class="pct">80%</span></div>
+          <div class="bar-row" data-w="85"><span class="name">Git · GitHub Actions</span><span class="bar"><span class="fill"></span></span><span class="pct">85%</span></div>
+          <div class="bar-row" data-w="78"><span class="name">Figma</span><span class="bar"><span class="fill"></span></span><span class="pct">78%</span></div>
+          <div class="bar-row" data-w="70"><span class="name">Playwright</span><span class="bar"><span class="fill"></span></span><span class="pct">70%</span></div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section" style="padding-top: 20px;">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="l">Опыт</div>
+        <h2>Что я <em>делал</em></h2>
+      </div>
+    </div>
+
+    <article class="exp reveal">
+      <div class="when">2024 — сейчас</div>
+      <div class="what">
+        <h3>The Lokmaco · сеть кофеен-кондитерских</h3>
+        <div class="role">Full-stack developer · единственный разработчик</div>
+        <p>Спроектировал и написал <strong>Lokmaco v2</strong> — операционную систему для 14 сотрудников: приход, инвентаризация, зарплаты, сверка касса↔iiko, налоговый отчёт под 1С. Запустил гостевые сайты <strong>Lokmaco QR</strong> и <strong>Luma Garden</strong> с общей бонусной программой в Google Wallet. Обошёл баг с undici на iikoWeb через собственный HTTP/1-клиент.</p>
+      </div>
+    </article>
+
+    <article class="exp reveal">
+      <div class="when">2024 — сейчас</div>
+      <div class="what">
+        <h3>Внутренние продукты команды</h3>
+        <div class="role">Product-oriented development</div>
+        <p><strong>TaskBoard</strong> — трекер с рейтингом сотрудников. <strong>Waste Bot</strong> — распознавание фото продукта на весах через Gemini Vision. <strong>Logist Warehouse</strong> — учёт грузов с экспортом в XLSX. <strong>Didox Scraper</strong> — безопасное чтение накладных через Playwright.</p>
+      </div>
+    </article>
+
+    <article class="exp reveal">
+      <div class="when">2023 — сейчас</div>
+      <div class="what">
+        <h3>Личные и R&amp;D проекты</h3>
+        <div class="role">Learning by building</div>
+        <p><strong>FinTrack</strong> — личные финансы с AI-разбором трат. <strong>TezDavo</strong> — прототип маркетплейса аптек. Больше 15 проектов в GitHub.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ CONTACT BAND ============ -->
+<section id="contact">
+  <div class="contact-band reveal">
+    <h2>Давайте <em>поработаем</em> вместе</h2>
+    <p>Если у вас есть продукт, где нужно собрать всё с нуля или довести до ума — напишите. Отвечаю в этот же день.</p>
+    <div class="ctas">
+      <a href="mailto:asilchik18@gmail.com" class="btn btn-dark">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="14" height="10" rx="2"/><path d="M1.5 4 8 9l6.5-5"/></svg>
+        asilchik18@gmail.com
+      </a>
+      <a href="https://t.me/farshbtw" class="btn btn-ghost" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M15.65 1.57 1.73 7.03c-.95.38-.94.91-.17 1.14l3.57 1.11 8.26-5.21c.39-.24.75-.11.46.15L7.1 10.26l-.26 3.86c.39 0 .56-.18.78-.39l1.87-1.82 3.88 2.86c.72.4 1.23.19 1.4-.66L16.36 2.3c.26-1.03-.42-1.5-1.09-1.21z"/></svg>
+        @farshbtw
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap-foot">
+    <div>© 2026 · Асиль Аминжонов · Фергана</div>
+    <div>
+      <a href="https://github.com/asilJPG">github</a> ·
+      <a href="https://t.me/farshbtw">telegram</a> ·
+      <a href="mailto:asilchik18@gmail.com">email</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Reveal on scroll
+  (function(){
+    const els = document.querySelectorAll('.reveal, .project');
+    if (!('IntersectionObserver' in window)) {
+      els.forEach(e => e.classList.add('in'));
+      return;
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -5% 0px', threshold: 0.01 });
+    els.forEach((e, i) => {
+      if (e.classList.contains('project') && !e.classList.contains('featured')) {
+        e.style.setProperty('--d', (i * 60) + 'ms');
+      }
+      io.observe(e);
+    });
+    setTimeout(() => els.forEach(e => e.classList.add('in')), 500);
+  })();
+
+  // Skill bars fill when visible
+  (function(){
+    const bars = document.querySelectorAll('.bar-row');
+    bars.forEach(b => b.style.setProperty('--w', b.dataset.w + '%'));
+    if (!('IntersectionObserver' in window)) {
+      bars.forEach(b => b.classList.add('in'));
+      return;
+    }
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.2 });
+    bars.forEach(b => io.observe(b));
+  })();
+
+  // Local clock
+  (function(){
+    const el = document.getElementById('clock');
+    if (!el) return;
+    const pad = n => String(n).padStart(2, '0');
+    function tick(){
+      const d = new Date();
+      const t = new Date(d.getTime() + (d.getTimezoneOffset() + 300) * 60000);
+      el.textContent = pad(t.getHours()) + ':' + pad(t.getMinutes());
+    }
+    tick(); setInterval(tick, 15000);
+  })();
+</script>
+
+</body>
 </html>
