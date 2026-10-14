@@ -8,9 +8,9 @@ a{color:inherit}
 .col{max-width:648px;margin:0 auto;padding:0 24px}
 header.top{padding:64px 0 0}
 .lead{font-size:20px;line-height:40px;letter-spacing:-.4px;margin:0;font-weight:450;color:var(--ink)}
-.lead .ic{display:inline-block;vertical-align:middle;height:60px;margin:-10px 6px;position:relative}
-.lead .ic svg{height:100%;width:auto;display:block;stroke:var(--ink);fill:none;stroke-width:1.2;stroke-linejoin:round;stroke-linecap:round;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
-.lead .ic:hover svg{transform:rotate(-8deg) scale(1.08)}
+.lead .ic{display:inline-block;vertical-align:middle;height:30px;margin:-4px 5px 0 3px;position:relative;top:-1px}
+.lead .ic svg{height:100%;width:auto;display:block;stroke:var(--ink);fill:none;stroke-width:1.8;stroke-linejoin:round;stroke-linecap:round;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+
 .social{display:flex;gap:14px;margin:26px 0 0}
 .social a{color:var(--mute);display:inline-flex;transition:color .2s}
 .social a:hover{color:var(--ink)}
@@ -69,3 +69,22 @@ footer{max-width:648px;margin:70px auto 0;padding:0 24px 56px;color:var(--mute);
 @media print{.social,nav.tabs,footer,.noprint{display:none}}
 .stk{margin:0 0 14px}
 .stk .lb{font-family:'Geist Mono',monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
+
+.pr{cursor:default}
+.hl{padding:0 3px;margin:0 -3px;transition:background .15s,color .15s}
+.pr:hover .hl{background:var(--ink);color:var(--bg)}
+.lead .ic::before{content:'';position:absolute;inset:-7px -8px;opacity:0;transition:opacity .15s;pointer-events:none;background:
+linear-gradient(var(--ink),var(--ink)) 0 0/7px 1.5px,linear-gradient(var(--ink),var(--ink)) 0 0/1.5px 7px,
+linear-gradient(var(--ink),var(--ink)) 100% 0/7px 1.5px,linear-gradient(var(--ink),var(--ink)) 100% 0/1.5px 7px,
+linear-gradient(var(--ink),var(--ink)) 0 100%/7px 1.5px,linear-gradient(var(--ink),var(--ink)) 0 100%/1.5px 7px,
+linear-gradient(var(--ink),var(--ink)) 100% 100%/7px 1.5px,linear-gradient(var(--ink),var(--ink)) 100% 100%/1.5px 7px;background-repeat:no-repeat}
+.pr:hover .ic::before{opacity:1}
+.pr:hover .ic svg{transform:scale(1.14) rotate(-4deg)}
+.back{font-size:13px;margin:0 0 20px}
+.back a{color:var(--mute);text-decoration:none}.back a:hover{color:var(--ink)}
+.cst{font-size:22px;line-height:30px;font-weight:500;letter-spacing:-.3px;margin:0 0 4px;color:var(--ink)}
+.csr{font-family:'Geist Mono',monospace;font-size:11px;color:var(--mute);margin-bottom:18px}
+.csimg{border:1px solid var(--line);background:var(--soft);margin:0 0 20px;overflow:hidden}
+.csimg img{display:block;width:100%;height:auto}
+ul.cs{margin:0 0 8px;padding-left:18px;color:var(--ink2);font-size:15px;line-height:24px}
+ul.cs li{margin-bottom:10px}ul.cs b{color:var(--ink);font-weight:500}
