@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Контакты · Асиль Аминжонов</title>
+<meta name="description" content="Асиль Аминжонов — full-stack разработчик из Ферганы. Next.js, TypeScript, Postgres.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+<div class="col"><header class="top">
+<p class="lead">Я Асиль.<span class="ic"><svg viewBox="0 0 24 32"><rect x="3" y="2" width="18" height="28" rx="1.5"/><path d="M8 11l-3 3 3 3M16 11l3 3-3 3M13 10l-2 8"/></svg></span>Собираю веб-продукты от базы данных до интерфейса: <span class="ic"><svg viewBox="0 0 30 32"><ellipse cx="15" cy="8" rx="11" ry="4"/><path d="M4 8v16c0 2.2 4.9 4 11 4s11-1.8 11-4V8M4 16c0 2.2 4.9 4 11 4s11-1.8 11-4"/></svg></span>платформы и сайты, <span class="ic"><svg viewBox="0 0 36 32"><path d="M18 3l14 8-14 8L4 11z"/><path d="M4 17l14 8 14-8M4 23l14 8 14-8" opacity=".6"/></svg></span>интеграции с iiko и боты, сделанные со вкусом и с выдумкой.</p>
+<div class="social">
+<a href="https://github.com/asilJPG" aria-label="GitHub"><svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.49c-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.19c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+<a href="https://t.me/farshbtw" aria-label="Telegram"><svg viewBox="0 0 16 16"><path d="M15.65 1.57 1.73 7.03c-.95.38-.94.91-.17 1.14l3.57 1.11 8.26-5.21c.39-.24.75-.11.46.15L7.1 10.26l-.26 3.86c.39 0 .56-.18.78-.39l1.87-1.82 3.88 2.86c.72.4 1.23.19 1.4-.66L16.36 2.3c.26-1.03-.42-1.5-1.09-1.21z"/></svg></a>
+<a href="mailto:asilchik18@gmail.com" aria-label="Email"><svg viewBox="0 0 16 16"><path d="M2 3h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm.4 1.3L8 8.4l5.6-4.1V4.2L8 8 2.4 4.2z"/></svg></a>
+</div><hr class="sep"></header>
+<nav class="tabs"><a href="index.html">обо мне</a><a href="projects.html">проекты</a><a href="resume.html">cv</a><a href="contact.html" class=on>контакты</a></nav>
+<main class="fade">
+<p>Есть проект, вопрос или просто хочется поздороваться? Напишите здесь, я читаю всё сам.</p>
+<div class="chat" id="chat"></div>
+<div class="alt"><div class="k">ЛУЧШЕ ПОЧТОЙ?</div><a class="big" href="mailto:asilchik18@gmail.com">asilchik18@gmail.com</a><p style="margin-top:8px">Обычно отвечаю в течение дня.</p></div></main></div>
+<footer>© 2026 · Фергана, UTC+5</footer><script>(function(){var c=document.getElementById('chat'),S=[{q:'Привет, я Асиль. Как вас зовут?',k:'name',p:'Ваше имя'},{q:function(d){return 'Приятно, '+d.name+'. На какую почту ответить?'},k:'email',p:'you@mail.com',t:'email'},{q:'Расскажите, что у вас за задача.',k:'msg',p:'Сообщение',a:1}],D={},i=0;
+function say(w,t,m){var d=document.createElement('div');d.className='msg'+(m?' me':'');d.innerHTML='<div class="who"></div><div class="bubble"></div>';d.firstChild.textContent=w;d.lastChild.textContent=t;c.appendChild(d)}
+function ask(){var s=S[i];say('Асиль',typeof s.q=='function'?s.q(D):s.q);var w=document.createElement('div');w.className='chat-input';var f=document.createElement(s.a?'textarea':'input');f.placeholder=s.p;if(s.t)f.type=s.t;if(s.a)f.rows=3;var b=document.createElement('button');b.type='button';b.textContent=i==S.length-1?'Отправить':'Дальше';w.append(f,b);c.appendChild(w);f.focus();
+function nx(){var v=f.value.trim();if(!v)return;D[s.k]=v;w.remove();say('Вы',v,1);i++;if(i<S.length)return ask();say('Асиль','Спасибо! Открываю почту, осталось нажать «Отправить».');location.href='mailto:asilchik18@gmail.com?subject='+encodeURIComponent('Сообщение с сайта от '+D.name)+'&body='+encodeURIComponent(D.msg+'\n\n'+D.name+' · '+D.email)}
+b.onclick=nx;f.addEventListener('keydown',function(e){if(e.key=='Enter'&&!e.shiftKey){e.preventDefault();nx()}})}ask()})()</script></body></html>
