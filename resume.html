@@ -7,23 +7,24 @@
 <title>CV · Асиль Аминжонов</title>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="styles.css" />
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='24' font-size='24' font-family='serif' font-style='italic'%3Ea%3C/text%3E%3C/svg%3E" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23FBB7C9'/%3E%3C/svg%3E" />
 </head>
 <body>
 
-<div class="nav-shell no-print">
-  <nav class="nav">
-    <a class="brand" href="index.html">(asil<span>.</span>)</a>
-    <div class="links">
-      <a href="index.html">index</a>
-      <a href="projects.html">projects</a>
-      <a href="about.html">about</a>
-      <a href="resume.html" class="on">cv</a>
-      <a href="index.html#contact">contact</a>
+<section class="hero no-print" style="min-height: 320px;">
+  <div class="hero-nav">
+    <a class="brand" href="index.html">(<strong>asil</strong><span>.</span>)</a>
+    <div class="hero-links">
+      <a href="index.html">Главная</a>
+      <a href="about.html">Обо мне</a>
+      <a href="index.html#skills">Навыки</a>
+      <a href="index.html#experience">Опыт</a>
+      <a href="projects.html">Проекты</a>
+      <a href="resume.html" class="on">CV</a>
     </div>
-    <div class="socials">
+    <div class="hero-socials">
       <a href="https://github.com/asilJPG" target="_blank" rel="noopener" aria-label="GitHub">
         <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
       </a>
@@ -34,15 +35,34 @@
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="1" y="3" width="14" height="10" rx="2"/><path d="M1.5 4 8 9l6.5-5"/></svg>
       </a>
     </div>
-  </nav>
-</div>
+  </div>
 
-<main style="margin-top: 32px;">
+  <div class="hero-content">
+    <h1><span class="light">Моё</span> резюме</h1>
+    <p class="lede">Full-stack web developer · Next.js · Postgres · iiko. Три года опыта.</p>
+    <div class="ctas">
+      <button onclick="window.print()" class="btn btn-dark" style="border: none; font-family: inherit;">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 2v10m0 0 4-4m-4 4L4 8M2 14h12"/></svg>
+        Сохранить в PDF
+      </button>
+    </div>
+  </div>
+
+  <div class="hero-foot">
+    <div class="studio"><strong>asil</strong><span>Studio</span></div>
+    <div class="foot-links">
+      <a href="index.html">главная</a>
+      <a href="projects.html">проекты</a>
+    </div>
+  </div>
+</section>
+
+<main style="margin-top: 20px;">
   <section class="wrap-narrow">
 
     <div class="cv-head">
       <div>
-        <h1><span class="name">Асиль</span> Аминжонов</h1>
+        <h1>Асиль Аминжонов</h1>
         <div class="sub">full-stack web developer · next.js · postgres · iiko</div>
       </div>
       <div class="contacts">
@@ -52,10 +72,6 @@
         <a href="https://t.me/farshbtw">t.me/farshbtw</a><br />
         <a href="https://github.com/asilJPG">github.com/asilJPG</a>
       </div>
-    </div>
-
-    <div class="no-print" style="text-align: right; margin: 16px 0;">
-      <button class="btn btn-ghost" onclick="window.print()" style="font-size: 12px; padding: 8px 14px;">↓ Сохранить в PDF</button>
     </div>
 
     <div class="cv-block">
@@ -68,8 +84,8 @@
           Telegram-боты с распознаванием изображений.
         </p>
         <p>
-          Свободно интегрирую iiko (XML и iikoWeb JSON), Anthropic Claude, Google Gemini. Умею работать с реальными
-          пользователями — платформой пользуются 14 сотрудников сети из 2 филиалов каждый день.
+          Свободно интегрирую iiko (XML и iikoWeb JSON), Anthropic Claude, Google Gemini.
+          Платформой пользуются 14 сотрудников сети из 2 филиалов каждый день.
         </p>
       </div>
     </div>
@@ -83,12 +99,12 @@
           <h3>The Lokmaco · сеть кофеен-кондитерских</h3>
           <div class="role">Full-stack developer · единственный разработчик</div>
           <ul>
-            <li>Спроектировал и написал <strong>Lokmaco v2</strong> — операционную систему для 14 сотрудников: приход, перемещение, инвентаризация, приготовление, списание, акты услуг, закрытие смены, сверка касса↔iiko, зарплаты, P&amp;L, налоговый отчёт под 1С.</li>
-            <li>Внедрил <strong>WebAuthn passkeys</strong> с per-role доступом (9 ролей × 21 раздел, единая матрица), шифрование iiko-реквизитов AES-256-GCM.</li>
+            <li>Спроектировал и написал <strong>Lokmaco v2</strong> — операционную систему для 14 сотрудников.</li>
+            <li>Внедрил <strong>WebAuthn passkeys</strong> с per-role доступом (9 ролей × 21 раздел).</li>
             <li>Обошёл баг с undici (500-е ответы iikoWeb) — собственный HTTP/1-клиент на <code>node:https</code>.</li>
-            <li>Запустил гостевые сайты <strong>Lokmaco QR</strong> и <strong>Luma Garden</strong> с общей бонусной программой в Google Wallet, welcome-лоадером на реальный прогресс, Kling-видео на hero-блюдах.</li>
-            <li>Мигрировал хранилище меню с GitHub-коммитов на Supabase Storage — правки на кассе появляются на сайте моментально вместо пересборки.</li>
-            <li>Проверил формулу сверки касса↔iiko на живом месяце: расхождение снизилось с миллионов до 20 сум при обороте 20 млн.</li>
+            <li>Запустил <strong>Lokmaco QR</strong> и <strong>Luma Garden</strong> с общей бонусной программой в Google Wallet.</li>
+            <li>Мигрировал хранилище меню с GitHub-коммитов на Supabase Storage — правки видны моментально.</li>
+            <li>Проверил формулу сверки касса↔iiko: расхождение снизилось с миллионов до 20 сум при обороте 20 млн.</li>
           </ul>
         </div>
       </div>
@@ -99,8 +115,8 @@
           <h3>Внутренние продукты команды</h3>
           <div class="role">Product-oriented development</div>
           <ul>
-            <li><strong>TaskBoard</strong> — трекер задач с ролями, оценкой сложности и качества, командными долями, анонимными отчётами в Telegram-супергруппу.</li>
-            <li><strong>Waste Bot</strong> — распознавание фото продукта на весах через Gemini Vision, сводка списаний для внесения в iiko.</li>
+            <li><strong>TaskBoard</strong> — трекер задач с ролями, оценкой сложности и качества, командными долями.</li>
+            <li><strong>Waste Bot</strong> — распознавание фото продукта на весах через Gemini Vision.</li>
             <li><strong>Logist Warehouse</strong> — учёт грузов с экспортом в XLSX.</li>
             <li><strong>Didox Invoice Scraper</strong> — безопасное чтение накладных через Playwright.</li>
           </ul>
@@ -113,9 +129,9 @@
           <h3>Личные и R&amp;D проекты</h3>
           <div class="role">Learning by building</div>
           <ul>
-            <li><strong>FinTrack</strong> — трекер личных финансов с Live Burn Counter, OCR чеков (Tesseract + Claude Vision), AI-разбором трат.</li>
-            <li><strong>TezDavo</strong> — прототип маркетплейса аптек и курьеров, PWA с Firebase Cloud Messaging.</li>
-            <li>15+ проектов в GitHub — от одностраничников до полных приложений.</li>
+            <li><strong>FinTrack</strong> — трекер личных финансов с Live Burn Counter, OCR чеков, AI-разбором трат.</li>
+            <li><strong>TezDavo</strong> — прототип маркетплейса аптек и курьеров, PWA с Firebase.</li>
+            <li>15+ проектов в GitHub.</li>
           </ul>
         </div>
       </div>
@@ -175,7 +191,7 @@
       </div>
     </div>
 
-    <p class="no-print" style="margin-top: 40px; text-align: center; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--muted);">
+    <p class="no-print" style="margin-top: 40px; text-align: center; font-size: 12px; color: var(--muted);">
       обновлено: октябрь 2026 · <a href="index.html" style="color: var(--link);">на сайт</a>
     </p>
 
