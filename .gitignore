@@ -1,0 +1,6 @@
+.DS_Store
+_legacy_old/
+*.bak
+node_modules/
+.vercel/
+.env*
