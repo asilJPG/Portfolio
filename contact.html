@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Контакты · Асиль Аминжонов</title>
-<meta name="description" content="Асиль Аминжонов — full-stack разработчик из Ферганы. Next.js, TypeScript, Postgres.">
+<meta name="description" content="Асиль Аминжонов — full-stack разработчик из Ташкента. Next.js, TypeScript, Postgres.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;450;500;600&family=Geist+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css"></head><body>
 <div class="col"><header class="top">
 <p class="lead">Я Асиль.<span class="ic"><svg viewBox="0 0 24 32"><rect x="3" y="2" width="18" height="28" rx="1.5"/><path d="M8 11l-3 3 3 3M16 11l3 3-3 3M13 10l-2 8"/></svg></span>Собираю веб-продукты от базы данных до интерфейса: <span class="ic"><svg viewBox="0 0 30 32"><ellipse cx="15" cy="8" rx="11" ry="4"/><path d="M4 8v16c0 2.2 4.9 4 11 4s11-1.8 11-4V8M4 16c0 2.2 4.9 4 11 4s11-1.8 11-4"/></svg></span>платформы и сайты, <span class="ic"><svg viewBox="0 0 36 32"><path d="M18 3l14 8-14 8L4 11z"/><path d="M4 17l14 8 14-8M4 23l14 8 14-8" opacity=".6"/></svg></span>интеграции с iiko и боты, сделанные со вкусом и с выдумкой.</p>
@@ -17,7 +17,7 @@
 <p>Есть проект, вопрос или просто хочется поздороваться? Напишите здесь, я читаю всё сам.</p>
 <div class="chat" id="chat"></div>
 <div class="alt"><div class="k">ЛУЧШЕ ПОЧТОЙ?</div><a class="big" href="mailto:asilchik18@gmail.com">asilchik18@gmail.com</a><p style="margin-top:8px">Обычно отвечаю в течение дня.</p></div></main></div>
-<footer>© 2026 · Фергана, UTC+5</footer><script>(function(){var c=document.getElementById('chat'),S=[{q:'Привет, я Асиль. Как вас зовут?',k:'name',p:'Ваше имя'},{q:function(d){return 'Приятно, '+d.name+'. На какую почту ответить?'},k:'email',p:'you@mail.com',t:'email'},{q:'Расскажите, что у вас за задача.',k:'msg',p:'Сообщение',a:1}],D={},i=0;
+<footer>© 2026 · Ташкент, UTC+5</footer><script>(function(){var c=document.getElementById('chat'),S=[{q:'Привет, я Асиль. Как вас зовут?',k:'name',p:'Ваше имя'},{q:function(d){return 'Приятно, '+d.name+'. На какую почту ответить?'},k:'email',p:'you@mail.com',t:'email'},{q:'Расскажите, что у вас за задача.',k:'msg',p:'Сообщение',a:1}],D={},i=0;
 function say(w,t,m){var d=document.createElement('div');d.className='msg'+(m?' me':'');d.innerHTML='<div class="who"></div><div class="bubble"></div>';d.firstChild.textContent=w;d.lastChild.textContent=t;c.appendChild(d)}
 function ask(){var s=S[i];say('Асиль',typeof s.q=='function'?s.q(D):s.q);var w=document.createElement('div');w.className='chat-input';var f=document.createElement(s.a?'textarea':'input');f.placeholder=s.p;if(s.t)f.type=s.t;if(s.a)f.rows=3;var b=document.createElement('button');b.type='button';b.textContent=i==S.length-1?'Отправить':'Дальше';w.append(f,b);c.appendChild(w);f.focus();
 function nx(){var v=f.value.trim();if(!v)return;D[s.k]=v;w.remove();say('Вы',v,1);i++;if(i<S.length)return ask();say('Асиль','Спасибо! Открываю почту, осталось нажать «Отправить».');location.href='mailto:asilchik18@gmail.com?subject='+encodeURIComponent('Сообщение с сайта от '+D.name)+'&body='+encodeURIComponent(D.msg+'\n\n'+D.name+' · '+D.email)}
